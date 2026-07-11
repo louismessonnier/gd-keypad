@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "HE60") (type "KiCad") (uri "C:/Projects (GitHub)/gd-keypad/libraries/HE60 library/HE60.pretty") (options "") (descr ""))
+)
