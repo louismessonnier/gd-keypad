@@ -3096,7 +3096,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_marbastlib-mx:MX_SW_solder"
+		(symbol "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3120,7 +3120,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MX_SW_solder"
+			(property "Value" "MX_SW_HS"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3130,7 +3130,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3152,7 +3152,7 @@
 					)
 				)
 			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3174,7 +3174,7 @@
 					)
 				)
 			)
-			(symbol "MX_SW_solder_0_1"
+			(symbol "MX_SW_HS_CPG151101S11_0_1"
 				(polyline
 					(pts
 						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
@@ -5679,16 +5679,22 @@
 		(uuid "0d0db91d-d697-431c-b138-fed34b632cf5")
 	)
 	(junction
+		(at 35.56 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "126ae59c-857e-439d-b9ef-830d6c36e7ed")
+	)
+	(junction
+		(at 54.61 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "155ac7d7-93f4-4114-b8d8-d5363a3ca8e4")
+	)
+	(junction
 		(at 201.93 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18e48ac1-3649-437f-845a-2404f68fd2bf")
-	)
-	(junction
-		(at 35.56 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19f5bb07-ac35-46df-8f2c-d1a9d8a076c4")
 	)
 	(junction
 		(at 256.54 63.5)
@@ -5772,7 +5778,7 @@
 		(at 54.61 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6824d4e5-4113-462b-b9b5-418fcb1a556f")
+		(uuid "616c171d-ff1b-425f-b420-e5da33827d14")
 	)
 	(junction
 		(at 125.73 74.93)
@@ -5823,22 +5829,10 @@
 		(uuid "a3157ac2-4d1a-4040-9385-8e5c7468eb6b")
 	)
 	(junction
-		(at 35.56 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a53cfc94-6a59-4d58-91d8-68a43bbaf73c")
-	)
-	(junction
 		(at 135.89 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b21eb00c-a25d-403d-afdf-ba471f972d8f")
-	)
-	(junction
-		(at 54.61 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b41b39af-844a-4a8b-88a8-628c6cc4ba34")
 	)
 	(junction
 		(at 132.08 55.88)
@@ -5869,6 +5863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edf06b09-22a5-4d40-8803-bbfdbdebea15")
+	)
+	(junction
+		(at 35.56 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6512965-2081-4577-8605-569b14beaf3b")
 	)
 	(junction
 		(at 284.48 63.5)
@@ -6057,6 +6057,16 @@
 			(type default)
 		)
 		(uuid "01ff2967-2da8-46ae-9c96-d6d88240034c")
+	)
+	(wire
+		(pts
+			(xy 35.56 236.22) (xy 35.56 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03585dd1-a6b6-42a5-bdc1-252b4b031716")
 	)
 	(wire
 		(pts
@@ -6317,16 +6327,6 @@
 			(type default)
 		)
 		(uuid "2cc44f76-3b64-4b27-8d60-1c2d64c365bd")
-	)
-	(wire
-		(pts
-			(xy 35.56 236.22) (xy 35.56 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cefe8d8-ae4a-4d50-8aa8-748281e2608d")
 	)
 	(wire
 		(pts
@@ -6760,6 +6760,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 213.36) (xy 35.56 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853744f5-0545-41a2-9a63-8428d4328af4")
+	)
+	(wire
+		(pts
 			(xy 232.41 248.92) (xy 237.49 248.92)
 		)
 		(stroke
@@ -6890,6 +6900,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 213.36) (xy 54.61 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d768dc-8343-469d-9ef4-fe541f489f5b")
+	)
+	(wire
+		(pts
 			(xy 54.61 201.93) (xy 54.61 213.36)
 		)
 		(stroke
@@ -6897,16 +6917,6 @@
 			(type default)
 		)
 		(uuid "a168582a-927b-4367-8025-3d4258d789f6")
-	)
-	(wire
-		(pts
-			(xy 35.56 213.36) (xy 35.56 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2ad0e1e-b577-4eb9-9567-c08f078144c4")
 	)
 	(wire
 		(pts
@@ -7030,6 +7040,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 236.22) (xy 54.61 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0062b63-c5cb-4f8c-856a-5d88cb9568d9")
+	)
+	(wire
+		(pts
 			(xy 194.31 44.45) (xy 194.31 46.99)
 		)
 		(stroke
@@ -7047,16 +7067,6 @@
 			(type default)
 		)
 		(uuid "c5f28068-78cc-4c8b-bfcf-5913dacadb2f")
-	)
-	(wire
-		(pts
-			(xy 54.61 236.22) (xy 54.61 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca393c67-e6d1-4ded-a3e8-c74b85536a60")
 	)
 	(wire
 		(pts
@@ -7157,16 +7167,6 @@
 			(type default)
 		)
 		(uuid "e6e704c7-8099-487a-a728-9e616eb8106e")
-	)
-	(wire
-		(pts
-			(xy 54.61 213.36) (xy 54.61 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9823f28-5dd2-47cb-8565-fe03a8da108b")
 	)
 	(wire
 		(pts
@@ -9555,86 +9555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 57.15 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "181d942d-727f-412a-8fb4-a8ad425e7b6e")
-		(property "Reference" "MX2"
-			(at 57.15 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 57.15 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 57.15 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 57.15 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "825c268c-e4b9-4b94-bdc4-029c86406a06")
-		)
-		(pin "2"
-			(uuid "d9e6aa8b-447a-4887-8659-d5a2b7b0bbcb")
-		)
-		(instances
-			(project "gd-keypad"
-				(path "/04451e77-8490-4738-a297-50a915aba2bd"
-					(reference "MX2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 139.7 270.51 180)
 		(unit 1)
@@ -9710,6 +9630,86 @@
 			(project "gd-keypad"
 				(path "/04451e77-8490-4738-a297-50a915aba2bd"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 57.15 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "209bf1d5-1720-42db-903f-8d9dd1377c32")
+		(property "Reference" "MX4"
+			(at 57.15 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 57.15 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 57.15 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 57.15 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c393a99-208c-4fb7-b173-53d4078cb669")
+		)
+		(pin "1"
+			(uuid "d3dcc10f-9ee1-45a0-8398-bf84ade5aaa4")
+		)
+		(instances
+			(project "gd-keypad"
+				(path "/04451e77-8490-4738-a297-50a915aba2bd"
+					(reference "MX4")
 					(unit 1)
 				)
 			)
@@ -9864,6 +9864,86 @@
 			(project "gd-keypad"
 				(path "/04451e77-8490-4738-a297-50a915aba2bd"
 					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 57.15 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "261b5400-9bd8-4cfb-9499-828917074e8b")
+		(property "Reference" "MX2"
+			(at 57.15 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 57.15 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 57.15 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 57.15 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67ca86ba-2886-4ec7-ba4b-de0da8daadff")
+		)
+		(pin "1"
+			(uuid "6c2f9b3c-928d-4aef-ae2c-c0be145a9d47")
+		)
+		(instances
+			(project "gd-keypad"
+				(path "/04451e77-8490-4738-a297-50a915aba2bd"
+					(reference "MX2")
 					(unit 1)
 				)
 			)
@@ -10848,6 +10928,86 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 38.1 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d15f91f-78da-4e14-971d-9d726743a535")
+		(property "Reference" "MX3"
+			(at 38.1 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 38.1 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 38.1 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 38.1 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "73c92fde-d571-4480-83e3-2227a979216e")
+		)
+		(pin "1"
+			(uuid "8abf9939-1fa8-48ff-ae32-5b74cb82a233")
+		)
+		(instances
+			(project "gd-keypad"
+				(path "/04451e77-8490-4738-a297-50a915aba2bd"
+					(reference "MX3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 173.99 109.22 0)
 		(unit 1)
@@ -11163,86 +11323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 57.15 261.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "430c1373-29c4-42de-a81f-b6f94e55d05c")
-		(property "Reference" "MX6"
-			(at 57.15 254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 57.15 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 57.15 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 57.15 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e24e9cb-4c97-4fba-b17e-f9f1f118461e")
-		)
-		(pin "2"
-			(uuid "d2308105-cdd0-4ab2-9996-785486a3775f")
-		)
-		(instances
-			(project "gd-keypad"
-				(path "/04451e77-8490-4738-a297-50a915aba2bd"
-					(reference "MX6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 274.32 0)
 		(unit 1)
@@ -11314,86 +11394,6 @@
 			(project "gd-keypad"
 				(path "/04451e77-8490-4738-a297-50a915aba2bd"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 57.15 238.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47c59448-b41d-45fe-a4f5-db1ccea24f03")
-		(property "Reference" "MX4"
-			(at 57.15 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 57.15 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 57.15 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 57.15 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c40ff4e6-8361-4eb7-acb2-fb0291ab99b2")
-		)
-		(pin "2"
-			(uuid "516084dc-5da0-46bc-94ba-e0e76fad8972")
-		)
-		(instances
-			(project "gd-keypad"
-				(path "/04451e77-8490-4738-a297-50a915aba2bd"
-					(reference "MX4")
 					(unit 1)
 				)
 			)
@@ -14063,86 +14063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 38.1 261.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "873ade3a-5336-4a05-bf90-c8e5a567db22")
-		(property "Reference" "MX5"
-			(at 38.1 254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 38.1 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 38.1 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 38.1 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a743bca7-fdd7-46a7-98d8-c4d2be003161")
-		)
-		(pin "2"
-			(uuid "872d2548-b165-4049-95a6-739d7d320174")
-		)
-		(instances
-			(project "gd-keypad"
-				(path "/04451e77-8490-4738-a297-50a915aba2bd"
-					(reference "MX5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 40.64 267.97 90)
 		(unit 1)
@@ -15054,86 +14974,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 38.1 238.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6154226-f64c-4d81-a1e5-99caa9df9e15")
-		(property "Reference" "MX3"
-			(at 38.1 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 38.1 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 38.1 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 38.1 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62523576-9899-49ac-9487-cb831c11cafa")
-		)
-		(pin "2"
-			(uuid "aa58736e-a051-4bc4-9ace-9bbd84ab4a54")
-		)
-		(instances
-			(project "gd-keypad"
-				(path "/04451e77-8490-4738-a297-50a915aba2bd"
-					(reference "MX3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 193.04 99.06 0)
 		(unit 1)
@@ -15478,6 +15318,86 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 38.1 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b55f3bb8-520b-4639-9c31-1806ba596c91")
+		(property "Reference" "MX1"
+			(at 38.1 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 38.1 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 38.1 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 38.1 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b3faff6-36ec-4c6f-872c-eecf1af83e96")
+		)
+		(pin "1"
+			(uuid "25678310-b973-4877-840a-9e558b9327c3")
+		)
+		(instances
+			(project "gd-keypad"
+				(path "/04451e77-8490-4738-a297-50a915aba2bd"
+					(reference "MX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 320.04 154.94 0)
 		(unit 1)
@@ -15718,6 +15638,86 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 57.15 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be730852-bacb-4e8a-8350-a6ae7d7ec360")
+		(property "Reference" "MX6"
+			(at 57.15 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 57.15 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 57.15 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 57.15 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c5465c1-6459-4277-9c60-8d40e76ccfc0")
+		)
+		(pin "1"
+			(uuid "b15ca68f-fbb4-4aa6-a66b-315bcfa7f404")
+		)
+		(instances
+			(project "gd-keypad"
+				(path "/04451e77-8490-4738-a297-50a915aba2bd"
+					(reference "MX6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 33.02 48.26 90)
 		(unit 1)
@@ -15791,86 +15791,6 @@
 			(project "gd-keypad"
 				(path "/04451e77-8490-4738-a297-50a915aba2bd"
 					(reference "#PWR0198")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 38.1 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c256789a-5a9c-456b-89f5-2a521d30d356")
-		(property "Reference" "MX1"
-			(at 38.1 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 38.1 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
-			(at 38.1 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 38.1 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02afe562-3949-4b19-b6bc-dd515d5e7bcc")
-		)
-		(pin "2"
-			(uuid "59adf159-d449-49db-982d-d1ebfc0e6352")
-		)
-		(instances
-			(project "gd-keypad"
-				(path "/04451e77-8490-4738-a297-50a915aba2bd"
-					(reference "MX1")
 					(unit 1)
 				)
 			)
@@ -17075,6 +16995,86 @@
 			(project "gd-keypad"
 				(path "/04451e77-8490-4738-a297-50a915aba2bd"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 38.1 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec98e364-5856-476f-a907-a2f86174130d")
+		(property "Reference" "MX5"
+			(at 38.1 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 38.1 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 38.1 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 38.1 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8d45d558-7d1b-4bf2-abcd-82b46db8491e")
+		)
+		(pin "1"
+			(uuid "74f8c75e-2c3a-43fe-bd9b-31538809dd49")
+		)
+		(instances
+			(project "gd-keypad"
+				(path "/04451e77-8490-4738-a297-50a915aba2bd"
+					(reference "MX5")
 					(unit 1)
 				)
 			)
