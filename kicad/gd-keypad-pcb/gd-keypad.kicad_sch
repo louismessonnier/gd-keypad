@@ -5913,16 +5913,12 @@
 		(uuid "31515a3d-024f-4557-85fd-72f05d884907")
 	)
 	(no_connect
-		(at 50.8 99.06)
-		(uuid "4db70da6-e1c8-42af-b93d-3828afc81776")
+		(at 76.2 99.06)
+		(uuid "448659b8-b6b1-48eb-829e-e8d88c757867")
 	)
 	(no_connect
 		(at 33.02 68.58)
 		(uuid "51d3b60a-bfdf-4991-b274-74c16b7ed14d")
-	)
-	(no_connect
-		(at 48.26 99.06)
-		(uuid "51f4081f-00a3-49de-bc55-d957e230bfde")
 	)
 	(no_connect
 		(at 96.52 68.58)
@@ -5961,10 +5957,6 @@
 		(uuid "7a923f16-cd71-467b-b381-0d6e25e4e944")
 	)
 	(no_connect
-		(at 45.72 99.06)
-		(uuid "8983d43f-ef0c-4e0c-a68a-815ad875e1a4")
-	)
-	(no_connect
 		(at 76.2 35.56)
 		(uuid "9092add0-c28a-4f72-a7cd-edd9a84e3b82")
 	)
@@ -5975,6 +5967,10 @@
 	(no_connect
 		(at 33.02 71.12)
 		(uuid "97c3b0e1-b8e4-4b56-8c12-a65b2f79dcd4")
+	)
+	(no_connect
+		(at 73.66 99.06)
+		(uuid "9ca01684-4813-4ec2-85a1-9f63678d3321")
 	)
 	(no_connect
 		(at 96.52 60.96)
@@ -6011,6 +6007,10 @@
 	(no_connect
 		(at 73.66 35.56)
 		(uuid "e1124792-0abf-42cf-ab11-ca6bd6f84d60")
+	)
+	(no_connect
+		(at 78.74 99.06)
+		(uuid "e9fa2682-e3ba-4938-a0ca-808aa7bf2fe7")
 	)
 	(no_connect
 		(at 96.52 58.42)
@@ -7334,7 +7334,7 @@
 	)
 	(global_label "ENCODER B"
 		(shape input)
-		(at 76.2 99.06 270)
+		(at 50.8 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7344,7 +7344,7 @@
 		)
 		(uuid "0b677ade-46db-4a1d-826b-17bb2abf3bbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 113.0518 90)
+			(at 50.8 113.0518 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7358,7 @@
 	)
 	(global_label "ENCODER A"
 		(shape input)
-		(at 73.66 99.06 270)
+		(at 48.26 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7368,7 +7368,7 @@
 		)
 		(uuid "0dff1bae-48e0-4e59-9f05-a632d08cdcad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 112.8704 90)
+			(at 48.26 112.8704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,7 +7526,7 @@
 	)
 	(global_label "HE SENSOR 1"
 		(shape input)
-		(at 33.02 81.28 180)
+		(at 33.02 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7536,7 +7536,7 @@
 		)
 		(uuid "57787c3e-4fb6-4bd1-94c3-8466f058eebe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.9116 81.28 0)
+			(at 16.9116 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7550,7 +7550,7 @@
 	)
 	(global_label "COLUMN 1"
 		(shape input)
-		(at 58.42 99.06 270)
+		(at 55.88 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7560,7 +7560,7 @@
 		)
 		(uuid "62d327ba-b3a2-48f6-a5ad-70a165842f6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 111.9633 90)
+			(at 55.88 111.9633 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7598,7 +7598,7 @@
 	)
 	(global_label "ROW 2"
 		(shape input)
-		(at 68.58 99.06 270)
+		(at 63.5 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7608,7 +7608,7 @@
 		)
 		(uuid "6675729a-4c8e-4273-a0fd-a9170687a123")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.58 108.2742 90)
+			(at 63.5 108.2742 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7646,7 +7646,7 @@
 	)
 	(global_label "COLUMN 0"
 		(shape input)
-		(at 55.88 99.06 270)
+		(at 58.42 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7656,7 +7656,7 @@
 		)
 		(uuid "6f046446-7c76-4560-97ed-04a8991aed78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 111.9633 90)
+			(at 58.42 111.9633 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7742,7 +7742,7 @@
 	)
 	(global_label "ROW 0"
 		(shape input)
-		(at 63.5 99.06 270)
+		(at 68.58 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7752,7 +7752,7 @@
 		)
 		(uuid "7cd6ed53-cc37-44a5-9273-277148ee0ab5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 108.2742 90)
+			(at 68.58 108.2742 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7814,7 +7814,7 @@
 	)
 	(global_label "ENCODER S1"
 		(shape input)
-		(at 78.74 99.06 270)
+		(at 45.72 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7824,7 +7824,7 @@
 		)
 		(uuid "8a7224ca-abf6-4ecd-b516-3a3e393fba77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 114.2008 90)
+			(at 45.72 114.2008 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7934,7 +7934,7 @@
 	)
 	(global_label "HE SENSOR 3"
 		(shape input)
-		(at 33.02 86.36 180)
+		(at 33.02 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7944,7 +7944,7 @@
 		)
 		(uuid "b70ed51d-f203-45ed-8017-8d41a2ef9fe8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.9116 86.36 0)
+			(at 16.9116 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
