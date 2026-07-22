@@ -1,0 +1,40 @@
+{
+  "name": "GD Keypad",
+  "manufacturer": "louismessonnier",
+  "maintainer": "louismessonnier",
+  "usb": {
+    "vid": "0xAB50",
+    "pid": "0x6D01",
+    "port": "hs"
+  },
+  "keyboard": {
+    "num_profiles": 4,
+    "num_layers": 4,
+    "num_keys": 3,
+    "num_advanced_keys": 8
+  },
+  "hardware": {
+    "hse_value": 12000000,
+    "driver": "at32f405xx"
+  },
+  "analog": {
+    "invert_adc": false,
+    "raw": {
+      "input": ["A0", "A1", "A2"],
+      "vector": [1, 2, 3]
+    }
+  },
+  "calibration": {
+    "initial_rest_value": 2400,
+    "initial_bottom_out_threshold": 700
+  },
+  "layout": {
+    "keymap": [[{ "key": 0 }, { "key": 1 }, { "key": 2 }]]
+  },
+  "keymap": [
+    ["KC_SPC", "KC_SPC", "KC_SPC"],
+    ["_______", "_______", "_______"],
+    ["_______", "_______", "_______"],
+    ["_______", "_______", "_______"]
+  ]
+}
